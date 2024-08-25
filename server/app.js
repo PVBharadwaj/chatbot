@@ -35,8 +35,9 @@ const Schema = mongoose.Schema;
 //   amount: Number,
 // },{ timestamps: true });
 const DataSchema = new Schema({
-  name: String,
+
   np: Number,
+  username: String,
   phone: Number,
 },{ timestamps: true });
 const DataModel = mongoose.model('Data', DataSchema);
